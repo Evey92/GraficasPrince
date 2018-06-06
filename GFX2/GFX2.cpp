@@ -22,8 +22,7 @@ HINSTANCE hInst;
 HRESULT
 initDevice();
 
-HRESULT
-initDevice()
+HRESULT initDevice()
 {
 	HRESULT hr = S_OK;
 

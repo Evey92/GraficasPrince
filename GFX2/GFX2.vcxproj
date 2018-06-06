@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GFX2.h" />
+    <ClInclude Include="GraphicsAPI.h" />
     <ClInclude Include="GraphicsBuffer.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GFX2.cpp" />
+    <ClCompile Include="GraphicsAPI.cpp" />
     <ClCompile Include="GraphicsBuffer.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
